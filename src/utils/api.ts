@@ -1,7 +1,7 @@
 import axios, { AxiosRequestConfig } from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://dev.codeleap.co.uk'
+  baseURL: 'https://dev.codeleap.co.uk'
 });
 
 api.interceptors.request.use((config: AxiosRequestConfig) => {
